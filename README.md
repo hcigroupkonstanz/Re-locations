@@ -47,9 +47,12 @@ For example: `public static string SERVER_IP = "192.168.178.101";`
 #### Build App
 
 7. Open the "Build Settings" in Unity (File -> Build Settings) and select "Universal Windows Platform" as platform (Make sure the module "Universal Windows Platform Build Support" was added during Unity installation).  
-Use the following build settings for HoloLens 2 (for HoloLens 1 select "ARM" as "Architecture"):  
-<img src="./Figures/build_settings.png" alt="Unity Build Settings window. Target Device = HoloLens, Architecture = ARM64, Build Type = D3D Project, Target SDK Version = 10.0.19041.0, Minimum Platform Version = 10.0.10240.0, Visual Studio Version = Latest installed, Build and Run on = USB Device, Build configuration = Release, Copy References = false, Copy PDB files = false, Development Build = false, Compression Method = Default" style="width: 600px"/>  
-Other Target SDK versions may work but have not been tested. The setting "Visual Studio Version" and all subsequent settings can be adjusted to the local installation or preference.
+Use the following build settings for HoloLens 2 (for HoloLens 1 select "ARM" as "Architecture"):
+
+    <img src="./Figures/build_settings.png" alt="Unity Build Settings window. Target Device = HoloLens, Architecture = ARM64, Build Type = D3D Project, Target SDK Version = 10.0.19041.0, Minimum Platform Version = 10.0.10240.0, Visual Studio Version = Latest installed, Build and Run on = USB Device, Build configuration = Release, Copy References = false, Copy PDB files = false, Development Build = false, Compression Method = Default" style="width: 600px"/>  
+
+    Other Target SDK versions may work but have not been tested. The setting "Visual Studio Version" and all subsequent settings can be adjusted to the local installation or preference.
+
 8. Press the "Switch Platform" button.
 9. After the platform switch is finished, press the "Build" button and select (or create) a folder in which the project should be built.
 10. After the build process is finished, open the created solution `Re-Locations.sln` with Visual Studio and build the app on the HoloLens using the prefered build method. In some cases, the correct architecture must be selected again in Visual Studio.
