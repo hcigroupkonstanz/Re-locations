@@ -1,0 +1,30 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "baseUrl": "./",
+        "outDir": "./dist/out-tsc",
+        "sourceMap": true,
+        "declaration": false,
+        "module": "es2015",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "target": "es5",
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "lib": [
+            "es2018",
+            "dom"
+        ],
+        "paths": {
+            "@arts/root/*": [ "./src/ui/app/*" ],
+            "@arts/components": [ "./src/ui/app/components/index" ],
+            "@arts/components/*": [ "./src/ui/app/components/*" ],
+            "@arts/directives": [ "./src/ui/app/directives/index" ],
+            "@arts/models": [ "./src/ui/app/models/index" ],
+            "@arts/services": [ "./src/ui/app/services/index" ],
+            "@arts/environment": [ "./src/ui/environments/environment" ],
+            "@arts/backend": [ "./src/server/modules/index" ]
+        }
+    }
+}

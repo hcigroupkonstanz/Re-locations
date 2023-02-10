@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="RoomMarker5" size="0.150000 0.150000" />
+    <ImageTarget name="RoomMarker4" size="0.150000 0.150000" />
+    <ImageTarget name="RoomMarker3" size="0.150000 0.150000" />
+    <ImageTarget name="CalibrationCorner2" size="0.100000 0.100000" />
+    <ImageTarget name="RoomMarker2" size="0.150000 0.150000" />
+    <ImageTarget name="RoomMarker1" size="0.150000 0.150000" />
+    <ImageTarget name="CalibrationCorner1" size="0.100000 0.100000" />
+  </Tracking>
+</QCARConfig>

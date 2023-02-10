@@ -1,0 +1,27 @@
+version: '3.4'
+services:
+  colibri_release:
+    image: hci-uni-kn/colibri:latest
+    restart: always
+    container_name: colibri
+    tty: true
+    volumes:
+        - ./data/:/srv/colibri/data
+    ports:
+      - 8001:8001
+      - 8002:8002
+      - "8003:8003/udp"
+      - 8004:8004
+
+  colibri_develop:
+    image: hci-uni-kn/colibri:latest
+    restart: always
+    container_name: colibri_DEVELOP
+    tty: true
+    volumes:
+        - ./data_develop/:/srv/colibri/data
+    ports:
+      - 9001:8001
+      - 9002:8002
+      - "9003:8003/udp"
+
