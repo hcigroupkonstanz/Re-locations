@@ -1,0 +1,98 @@
+cff-version: 1.2.0
+title: Re-locations
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Daniel Immanuel
+    family-names: Fink
+    email: daniel.immanuel.fink@uni-konstanz.de
+    affiliation: University of Konstanz
+    orcid: 'https://orcid.org/0000-0003-4281-972X'
+  - given-names: Johannes
+    family-names: Zagermann
+    email: johannes.zagermann@uni-konstanz.de
+    affiliation: University of Konstanz
+    orcid: 'https://orcid.org/0000-0002-6757-9753'
+  - given-names: Harald
+    family-names: Reiterer
+    affiliation: University of Konstanz
+    email: harald.reiterer@uni-konstanz.de
+    orcid: 'https://orcid.org/0000-0001-8528-8928'
+  - given-names: Hans-Christian
+    family-names: Jetter
+    orcid: 'https://orcid.org/0000-0001-6502-7114'
+    affiliation: University of Lübeck
+    email: jetter@imis.uni-luebeck.de
+identifiers:
+  - type: doi
+    value: 10.1145/3567709
+    description: Re-locations Paper
+repository-code: 'https://github.com/hcigroupkonstanz/Re-locations'
+abstract: >-
+  Augmented reality (AR) can create the illusion of being
+  virtually co-located during remote collaboration, e.g., by
+  visualizing remote co-workers as avatars. However, spatial
+  awareness of each other's activities is limited as
+  physical spaces, including the position of physical
+  devices, are often incongruent. Therefore, alignment
+  methods are needed to support activities on physical
+  devices. In this paper, we present the concept of
+  Re-locations, a method for enabling remote collaboration
+  with augmented reality in incongruent spaces. The idea of
+  the concept is to enrich remote collaboration activities
+  on multiple physical devices with attributes of co-located
+  collaboration such as spatial awareness and spatial
+  referencing by locally relocating remote user
+  representations to user-defined workspaces. We evaluated
+  the Re-locations concept in an explorative user study with
+  dyads using an authentic, collaborative task. Our findings
+  indicate that Re-locations introduce attributes of
+  co-located collaboration like spatial awareness and social
+  presence. Based on our findings, we provide implications
+  for future research and design of remote collaboration
+  systems using AR.
+keywords:
+  - augmented reality
+  - remote collaboration
+  - synchronous collaboration
+  - symmetric collaboration
+  - shared workspaces
+  - incongruent spaces
+  - dissimilar spaces
+preferred-citation:
+  type: conference-paper
+  authors:
+  - given-names: Daniel Immanuel
+    family-names: Fink
+    email: daniel.immanuel.fink@uni-konstanz.de
+    affiliation: University of Konstanz
+    orcid: 'https://orcid.org/0000-0003-4281-972X'
+  - given-names: Johannes
+    family-names: Zagermann
+    email: johannes.zagermann@uni-konstanz.de
+    affiliation: University of Konstanz
+    orcid: 'https://orcid.org/0000-0002-6757-9753'
+  - given-names: Harald
+    family-names: Reiterer
+    affiliation: University of Konstanz
+    email: harald.reiterer@uni-konstanz.de
+    orcid: 'https://orcid.org/0000-0001-8528-8928'
+  - given-names: Hans-Christian
+    family-names: Jetter
+    orcid: 'https://orcid.org/0000-0001-6502-7114'
+    affiliation: University of Lübeck
+    email: jetter@imis.uni-luebeck.de
+  doi: "10.1145/3567709"
+  journal: "Proc. ACM Hum.-Comput. Interact."
+  month: 11
+  title: "Re-locations: Augmenting Personal and Shared Workspaces to Support Remote Collaboration in Incongruent Spaces"
+  volume: 6
+  year: 2022
+  issue-date: December 2022
+  publisher:
+    name: "Association for Computing Machinery"
+  number: "ISS"
+  url: "https://doi.org/10.1145/3567709"
+  pages: 30
