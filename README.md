@@ -30,28 +30,29 @@ Supported hardware:
 
 ### Setup Re-locations App
 
-1. Open the `re-locations` project with Unity 2019.4.31f1 (available at the [Unity Download Archive](https://unity.com/releases/editor/archive)).
+1. Open the `re-locations` project with Unity 2019.4.31f1 (available at the [Unity Download Archive](https://unity.com/releases/editor/archive)). The project can be safely updated to the new database version. When a package error occurs, press "Continue".
+2. Open the `MainScene` (in the `Scene` folder).
 
 #### Vuforia Setup
 
-2. Open the "Package Manager" in Unity (Window -> Package Manager) and install "Vuforia Engine AR" (Version 8.5.9).
-3. Re-locations uses the "Vuforia Engine" which requires a license. A Vuforia account can be created [here](https://developer.vuforia.com/vui/auth/login). Afterward, a "Basic" (free) license can be created in the [License Manager](https://developer.vuforia.com/vui/develop/licenses).
-4. Open the "Vuforia Configuration" in Unity  (Window -> Vuforia Configuration) and paste your license key into the "App License Key" field.
+3. Open the "Package Manager" in Unity (Window -> Package Manager) and install "Vuforia Engine AR" (Version 8.5.9).
+4. Re-locations uses the "Vuforia Engine" which requires a license. A Vuforia account can be created [here](https://developer.vuforia.com/vui/auth/login). Afterward, a "Basic" (free) license can be created in the [License Manager](https://developer.vuforia.com/vui/develop/licenses).
+5. Open the "Vuforia Configuration" in Unity  (Window -> Vuforia Configuration) and paste your license key into the "App License Key" field.
 
 #### Networking Setup
 
-5. Set the `SERVER_IP` in the `Assets/Colibri/Sync/Code/SyncConfiguration.cs` file to the local IP address of the server (device running the server).  
+6. Set the `SERVER_IP` in the `Assets/Colibri/Sync/Code/SyncConfiguration.cs` file to the local IP address of the server (device running the server).  
 For example: `public static string SERVER_IP = "192.168.178.101";`
 
 #### Build App
 
-6. Open the "Build Settings" in Unity (File -> Build Settings) and select "Universal Windows Platform" as platform (Make sure the module "Universal Windows Platform Build Support" was added during Unity installation).  
+7. Open the "Build Settings" in Unity (File -> Build Settings) and select "Universal Windows Platform" as platform (Make sure the module "Universal Windows Platform Build Support" was added during Unity installation).  
 Use the following build settings for HoloLens 2 (for HoloLens 1 select "ARM" as "Architecture"):  
 <img src="./Figures/build_settings.png" alt="Unity Build Settings window. Target Device = HoloLens, Architecture = ARM64, Build Type = D3D Project, Target SDK Version = 10.0.19041.0, Minimum Platform Version = 10.0.10240.0, Visual Studio Version = Latest installed, Build and Run on = USB Device, Build configuration = Release, Copy References = false, Copy PDB files = false, Development Build = false, Compression Method = Default" style="width: 600px"/>  
 Other Target SDK versions may work but have not been tested. The setting "Visual Studio Version" and all subsequent settings can be adjusted to the local installation or preference.
-7. Press the "Switch Platform" button.
-8. After the platform switch is finished, press the "Build" button and select (or create) a folder in which the project should be built.
-9. After the build process is finished, open the created solution `Re-Locations.sln` with Visual Studio and build the app on the HoloLens using the prefered build method. In some cases, the correct architecture must be selected again in Visual Studio.
+8. Press the "Switch Platform" button.
+9. After the platform switch is finished, press the "Build" button and select (or create) a folder in which the project should be built.
+10. After the build process is finished, open the created solution `Re-Locations.sln` with Visual Studio and build the app on the HoloLens using the prefered build method. In some cases, the correct architecture must be selected again in Visual Studio.
 
 ### Setup Room
 
